@@ -1,0 +1,21 @@
+@mixin Tooltip($top, $left, $width)
+    top: $top
+    left: $left
+    position: absolute
+    background: #413c4b
+    border-radius: 0.7rem
+    width: $width
+    padding: 1rem
+    font-size: 0.8rem
+
+
+@mixin tooltipAfter($top, $right, $borderColor)
+    &::after
+        content: ""
+        position: absolute
+        top: 50%
+        right: 100%
+        border-width: 15px
+        border-style: solid
+        border-color: $borderColor
+        transform: translateY(-50%) 

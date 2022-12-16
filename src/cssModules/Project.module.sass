@@ -1,0 +1,84 @@
+.project
+    background: #303443
+    width: 400px
+    overflow: hidden
+    text-decoration: none
+    position: relative
+    &__details
+        padding: 1rem
+        position: relative
+    &__title
+        color: #fff
+        font-size: 1.5rem
+        margin-right: 2.5rem
+    &__tags
+        color: #fff
+        font-size: 1rem
+        font-weight: 500
+        margin-top: 0.5rem
+        color: #ffffff
+    &__description  
+        font-size: 1rem
+        color: #999
+        font-weight: 200
+        margin-top: 0.5rem
+    &__ref
+        position: absolute
+        top: 1rem
+        right: 1rem
+        background: #fff
+        border-radius: 50%
+        width: 30px
+        height: 30px
+        display: flex
+        justify-content: center
+        align-items: center
+        text-decoration: none
+        color: #000
+        &> i
+            display: block
+            transform: rotate(-45deg)
+    &__image
+        width: 100%
+        display: block
+        max-height: 181.367px
+        &> img
+            width: 100%
+            max-height: 100%
+            object-fit: cover
+    &__preview
+        transition: 1s
+        position: absolute
+        bottom: 0
+        left: 0
+        background: #272727
+        padding: 0.5rem 1rem
+        z-index: 1
+        border-top-right-radius: 1rem
+        color: #fff
+        opacity: 0
+        pointer-events: none
+
+.scrollable
+    overflow-y: scroll
+    scrollbar-width: none
+    &::-webkit-scrollbar
+        width: 0px
+    &::-webkit-scrollbar-track
+        background: #000
+    &::-webkit-scrollbar-thumb
+        background: #2e2e2e
+        border-radius: 3rem
+
+@media screen and ( max-width: 480px )
+    .project
+        width: 100%
+        height: auto
+        &__title
+            font-size: 1.2rem
+            margin-right: 2.3rem
+        &__image
+            width: 100%
+            display: block
+            max-height: 180px
+    

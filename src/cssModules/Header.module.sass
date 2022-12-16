@@ -1,0 +1,183 @@
+.tooltip
+    position: absolute
+    margin-right: 1rem
+    padding: 0.5rem
+    border-radius: 0.5rem
+    display: none
+    background: #413c4b
+    color: #fff
+    left: 50%
+    top: 100%
+    transform: translateX(-50%)
+    width: 120px
+    text-align: center
+    margin-top: 1rem
+    &::after
+        content:""
+        position: absolute
+        left: 50%
+        top: -25%
+        transform: translateX(-50%)
+        border-width: 5px
+        border-style: solid
+        border-color:   transparent transparent #413c4b transparent 
+    
+.header
+    &__top
+        display: flex
+        justify-content: space-between
+        align-items: center
+        padding: 0rem 3rem
+    &__title
+        color: #fff
+        width: 100%
+        height: 80px
+        background: #111111
+        position: relative
+        z-index: 1
+        top: 0
+        text-align: center
+        display: flex
+        justify-content: center
+        align-items: center
+        font-size: 3rem
+    &__previews
+        display: flex
+        justify-content: space-between
+        align-items: center
+        position: relative
+        width: 100%
+        z-index: 1
+        height: 477px
+    &__mobileproject
+        width: 20%
+        overflow: hidden
+        height: 100%
+        &> img
+            display: block
+            object-fit: contain
+            width: 100%
+            min-height: 100%
+    &__desktopproject
+        width: 78%
+        height: 100%
+        overflow: hidden
+        &> img
+            display: block
+            object-fit: contain
+            width: 100%
+            min-height: 100%
+    &__ref
+        display: flex
+        gap: 1rem
+        justify-content: center
+        align-items: center
+        border-bottom: 0.01px solid #444444
+        padding-bottom: 2rem
+        &info
+            display: flex
+            justify-content: space-between
+            align-items: center
+            position: relative
+            &:hover
+                & .tooltip
+                    display: block
+
+    &__icon
+        background: #007cff
+        text-decoration: none
+        color: #000
+        border-radius: 0.5rem
+        padding: 0.5rem
+        width: 100px
+        display: flex
+        justify-content: center
+        align-items: center
+        &> i
+            font-size: 2rem
+    &__infotitle
+        color: #fff
+        font-size: 3rem
+
+
+
+.scrollable
+    overflow-y: scroll
+    scrollbar-width: none
+    &::-webkit-scrollbar
+        width: 0px
+    &::-webkit-scrollbar-track
+        background: #000
+    &::-webkit-scrollbar-thumb
+        background: #2e2e2e
+        border-radius: 3rem
+
+.arrow
+    font-size: 2rem
+    cursor: pointer
+    color: #fff
+
+.hide
+    display: none
+
+@media screen and ( max-width: 1024px )
+    .header
+        padding: 0
+        &__previews
+            flex-direction: column-reverse
+            gap: 1rem
+            height: 1000px
+        &__mobileproject
+            width: 300px
+            &> img
+                object-fit: cover
+        &__desktopproject
+            width: 100%
+            height: 900px
+            &> img
+                object-fit: cover
+
+@media screen and ( max-width: 820px )
+    .header
+        padding: 0
+        &__previews
+            flex-direction: column-reverse
+            gap: 1rem
+            height: 1000px
+        &__mobileproject
+            width: 300px
+            &> img
+                object-fit: cover
+        &__desktopproject
+            width: 100%
+            height: 600px
+            &> img
+                object-fit: cover
+
+    
+@media screen and ( max-width: 480px  )
+    .header
+        height: fit-content
+        &__previews
+            height: 850px
+        &__desktopproject
+            height: 400px
+        &__mobileproject
+            width: 300px
+        &__top
+            margin-top: 1rem
+            padding: 0rem 1rem
+        &__title
+            font-size: 1.8rem
+        &__ref
+            margin-top: 1rem
+        &__icon
+            width: 80px
+
+@media screen and ( max-width: 390px  )
+    .header
+        height: fit-content
+        &__desktopproject
+            height: 300px
+            &> img
+                object-fit: cover
