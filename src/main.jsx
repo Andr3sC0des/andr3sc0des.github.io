@@ -7,6 +7,8 @@ import Projects from './components/Projects'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 import './styles.sass'
+import About from './components/About'
+import NotFound from './components/NotFound'
 
 const router = createBrowserRouter([
   {
@@ -22,14 +24,16 @@ const router = createBrowserRouter([
     path: '/about',
     element: [
       <Navbar key={1} />,
-      <h1 key={2}>About</h1>
+      <About key={2} />,
+      <Footer key={3} />
     ]
   },
   {
     path: '*',
     element: [
       <Navbar key={1} />,
-      <h1 key={2}>Not Found</h1>
+      <NotFound key={2} />,
+      <Footer key={3} />
     ]
   }
 ])

@@ -55,11 +55,13 @@ const Header = () => {
           <div ref={mobileIsScroll} className={outstanding[cont].scroll ? `${styles.scrollable} ${styles.header__mobileproject}` : styles.header__mobileproject}>
             <img src={outstanding[cont].mobileimage} alt='' />
           </div>
+
           <div ref={desktopIsScroll} className={outstanding[cont].scroll ? `${styles.scrollable} ${styles.header__desktopproject}` : styles.header__desktopproject}>
             <img src={outstanding[cont].desktopimage} alt='' />
           </div>
 
         </section>
+
         <section className={styles.header__top}>
           <i onClick={() => { handleImage(-1) }} className={`${styles.arrow} fa-solid fa-chevron-left`} />
           <h1 className={styles.header__title}>{outstanding[cont].title}</h1>
@@ -81,7 +83,6 @@ const Header = () => {
               <i className='fa-solid fa-eye' />
             </a>
           </article>
-          {console.log(outstanding[cont].ref)}
           <article className={outstanding[cont].ref ? styles.header__refinfo : styles.hide}>
             <span className={styles.tooltip}>Attribution</span>
             <a className={styles.header__icon} href={outstanding[cont].ref} target='_blank' rel='noopener noreferrer'>
