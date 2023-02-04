@@ -7,7 +7,7 @@ const outStanding = [
     scroll: true,
     linksource: 'https://github.com/Andr3sC0des/clock-timer.git',
     linkpreview: 'https://andr3sc0des.github.io/clock-timer',
-    ref: false,
+    ref: '',
     description: 'Breve descripción',
     tags: 'HTML, CSS, SASS, Javascript, React, Vite, useState, useEffect, useRef, Functional Components, Responsive, setTimeout, Audio, Standart (ESLINT)',
     date: ''

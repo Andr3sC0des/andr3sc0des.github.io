@@ -7,7 +7,7 @@ const projects = [
     scroll: true,
     linksource: 'https://github.com/Andr3sC0des/clock-timer.git',
     linkpreview: 'https://andr3sc0des.github.io/clock-timer',
-    ref: false,
+    ref: '',
     description: 'Breve descripción',
     tags: 'HTML, CSS, SASS, Javascript, React, Vite, useState, useEffect, useRef, Functional Components, Responsive, setTimeout, Audio, Standart (ESLINT)',
     date: '11/11/2022'
@@ -20,7 +20,7 @@ const projects = [
     scroll: true,
     linksource: 'https://github.com/Andr3sC0des/javascript-calculator',
     linkpreview: 'https://andr3sc0des.github.io/javascript-calculator',
-    ref: false,
+    ref: '',
     description: 'Breve descripción',
     tags: 'HTML, CSS, SASS, Javascript, React, Vite, Functional Components, useState, useRef, useEffect, Regex, Rendering Lists, Responsive, Props, Standard (ESLINT)',
     date: '06/11/2022'
@@ -33,7 +33,7 @@ const projects = [
     scroll: false,
     linksource: 'https://github.com/Andr3sC0des/drum-machine',
     linkpreview: 'https://andr3sc0des.github.io/drum-machine',
-    ref: false,
+    ref: '',
     description: 'Breve descripción',
     tags: 'HTML, CSS, SASS, Javascript, React, Vite, Rendering Lists, Functional Components, useState, useEffect, Responsive, useRef, KeyEvents, Props, Standard (ESLINT), One Line Conditional',
     date: '04/11/2022'
@@ -46,7 +46,7 @@ const projects = [
     scroll: true,
     linksource: 'https://github.com/Andr3sC0des/markdown-previewer',
     linkpreview: 'https://andr3sc0des.github.io/markdown-previewer',
-    ref: false,
+    ref: '',
     description: 'Breve descripción',
     tags: 'HTML, CSS, SASS, Javascript, React, Vite, Functional Components, useState, useEffect, useRef, Responsive, DOM purify, Marked, Standard (ESLINT)',
     date: '28/11/2022'
@@ -59,7 +59,7 @@ const projects = [
     scroll: false,
     linksource: 'https://github.com/Andr3sC0des/random-quote',
     linkpreview: 'https://andr3sc0des.github.io/random-quote',
-    ref: false,
+    ref: '',
     description: 'Breve descripción',
     tags: 'HTML, CSS, SASS, Javascript, React, Vite, Fetch API, Functional Components, useState, useEffect, Responsive',
     date: '26/11/2022'
@@ -216,7 +216,7 @@ const projects = [
     scroll: false,
     linksource: 'https://github.com/Andr3sC0des/sidebar-responsive.git',
     linkpreview: 'https://andr3sc0des.github.io/sidebar-responsive',
-    ref: false,
+    ref: '',
     description: 'Breve descripción',
     tags: 'HTML, CSS, SASS, Flexbox, responsive, sass modifiers, event listeners, transition, CSS selectors, desktop-first workflow',
     date: '07/10/2022'
@@ -229,7 +229,7 @@ const projects = [
     scroll: false,
     linksource: 'https://github.com/Andr3sC0des/nav-with-dropdown-component.git',
     linkpreview: 'https://andr3sc0des.github.io/nav-with-dropdown-component',
-    ref: false,
+    ref: '',
     description: 'Breve descripción',
     tags: 'HTML, CSS, SASS, Flexbox, sass modifiers, event listeners, transition, hover states',
     date: '06/10/2022'
@@ -307,7 +307,7 @@ const projects = [
     scroll: true,
     linksource: 'https://github.com/Andr3sC0des/personal-portfolio',
     linkpreview: 'https://andr3sc0des.github.io/personal-portfolio',
-    ref: false,
+    ref: '',
     description: 'Breve descripción',
     tags: 'HTML, CSS, SASS, Flexbox, Responsive, Fixed Navbar, Smooth Scroll',
     date: '24/11/2022'
@@ -320,7 +320,7 @@ const projects = [
     scroll: true,
     linksource: 'https://github.com/Andr3sC0des/landing-page-trombones',
     linkpreview: 'https://andr3sc0des.github.io/landing-page-trombones',
-    ref: false,
+    ref: '',
     description: 'Breve descripción',
     tags: 'HTML, CSS, SASS, Flexbox, Fixed Navbar, Video, Responsive',
     date: '24/11/2022'
@@ -333,7 +333,7 @@ const projects = [
     scroll: true,
     linksource: 'https://github.com/Andr3sC0des/tribute-page',
     linkpreview: 'https://andr3sc0des.github.io/tribute-page',
-    ref: false,
+    ref: '',
     description: 'Breve descripción',
     tags: 'HTML, CSS, SASS, Flexbox, Responsive',
     date: '25/11/2022'
@@ -346,7 +346,7 @@ const projects = [
     scroll: true,
     linksource: 'https://github.com/Andr3sC0des/documentation',
     linkpreview: 'https://andr3sc0des.github.io/documentation',
-    ref: false,
+    ref: '',
     description: 'Breve descripción',
     tags: 'HTML, CSS, SASS, Flexbox, Sidebar, Responsive, Scroll Smooth,',
     date: '26/11/2022'
@@ -359,7 +359,7 @@ const projects = [
     scroll: true,
     linksource: 'https://github.com/Andr3sC0des/survey-form',
     linkpreview: 'https://andr3sc0des.github.io/survey-form',
-    ref: false,
+    ref: '',
     description: 'Breve descripción',
     tags: 'HTML, CSS, SASS, Flexbox, Forms',
     date: '23/11/2022'
