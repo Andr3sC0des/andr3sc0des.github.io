@@ -7,7 +7,7 @@ const About = () => {
       <section className={styles.about}>
 
         <section className={styles.about__info}>
-          <span className={styles.about__title}>I´m Andrés Quintana</span>
+          <span className={styles.about__title}>Hi, I´m Andrés Quintana</span>
           <p className={styles.about__paragraph}>
             Me siento muy afortunado de haber encontrado mi pasión en el mundo de la tecnología. Desde que comencé mi carrera, he trabajado diligentemente para mejorar mis habilidades y ampliar mis conocimientos en el campo. Actualmente, estoy comenzando a trabajar como freelance y estoy ansioso por tener la oportunidad de trabajar en proyectos interesantes y desafiantes para diferentes clientes.
           </p>
